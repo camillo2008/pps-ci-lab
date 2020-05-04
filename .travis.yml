@@ -7,3 +7,5 @@ jdk: oraclejdk8
 
 script:
   - ’./gradlew clean build’
+
+
