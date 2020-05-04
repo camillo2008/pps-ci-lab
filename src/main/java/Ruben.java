@@ -1,5 +1,9 @@
 class Ruben {
-    public static void main(String[] args){
-        System.out.println("hello world");
+    private String name;
+    public Ruben(String name){
+        this.name = name;
+    }
+    public String a(){
+        return this.name;
     }
 }
