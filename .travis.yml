@@ -4,8 +4,6 @@ install: true
 os: linux
 dist: trusty
 jdk: oraclejdk8
-
 script:
   - ’./gradlew clean build’
-
-
+  - ’./gradlew test’
