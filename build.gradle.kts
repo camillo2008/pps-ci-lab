@@ -36,3 +36,7 @@ tasks.named<Test>("test"){
     useJUnitPlatform()
 }
 
+tasks.register<Javadoc>("testJavadoc") {
+    source = sourceSets.test.get().allJava
+}
+
